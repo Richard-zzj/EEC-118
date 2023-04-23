@@ -1,0 +1,17 @@
+在wsl中访问Windows文件：
+/mnt/c  #C盘
+/mnt/d  #D盘
+在Windows中访问wsl文件：
+在wsl中输入explorer.exe .
+上面命令是使用资源管理器 Explorer 打开当前的目录。
+
+退出程序：ctrl C
+
+安装vim:
+yum -y install vim*
+
+vim指令:
+i 插入模式，可以使用Backspace键或Delete键来删除一个字符。用方向键来控制光标。
+esc退出编辑，进入左下角命令行模式
+:w 保存
+:q 退出vim
